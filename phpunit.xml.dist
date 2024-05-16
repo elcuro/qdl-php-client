@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<phpunit xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:noNamespaceSchemaLocation="./vendor/phpunit/phpunit/phpunit.xsd"
+         bootstrap="./vendor/autoload.php"
+         colors="true"
+         cacheDirectory="./build/cache/phpunit">
+
+    <testsuites>
+        <testsuite name="unit-tests">
+            <directory>./tests/Unit</directory>
+        </testsuite>
+        <testsuite name="functional-tests">
+            <directory>./tests/Functional</directory>
+        </testsuite>
+    </testsuites>
+
+    <php>
+        <env name="QDL_USER" value="apitest@qdl.sk" />
+        <env name="QDL_PASSWORD" value="apitestqdl" />
+        <ini name="memory_limit" value="1G"/>
+    </php>
+
+    <coverage/>
+
+    <source>
+        <include>
+            <directory suffix=".php">./src</directory>
+        </include>
+    </source>
+
+</phpunit>
