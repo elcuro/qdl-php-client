@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="91af898f-88d9-4e78-8352-84f5d8676025" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.docker/app.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitattributes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.github/CODEOWNERS" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.github/FUNDING.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.github/ISSUE_TEMPLATE/Bug_Report.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.github/ISSUE_TEMPLATE/Feature_Request.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.github/ISSUE_TEMPLATE/Question.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.github/ISSUE_TEMPLATE/config.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.github/dependabot.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.github/pull_request_template.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.github/workflows/continuous-integration.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.github/workflows/merge-me.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeception.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/phpspec.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/phpunit.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CHANGELOG.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CONTRIBUTING.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/cache/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/coverage/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/logs/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/captainhook.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codecov.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conventional-commits.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/phpcs.xml.dist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/phpstan.neon" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/phpstan.neon.dist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/phpunit.xml.dist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/psalm.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Client/Client.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Client/ClientException.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Client/ClientExceptionInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Client/ClientInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Document/DocumentFactory.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Document/DocumentFactoryInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Document/DocumentFetcher.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Document/DocumentFetcherInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Document/HandoverProtocol/HandoverProtocol.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Document/HandoverProtocol/HandoverProtocolInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Document/Label/Label.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Document/Label/LabelInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Document/Label/LabelType.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Shipping/AddedShipment/AddedShipment.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Shipping/AddedShipment/AddedShipmentFactory.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Shipping/AddedShipment/AddedShipmentFactoryInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Shipping/AddedShipment/AddedShipmentInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Shipping/Shipment/Shipment.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Shipping/Shipment/ShipmentInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Shipping/Shipment/ShipmentPackage.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Shipping/Shipment/ShipmentPackageInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Shipping/Shipment/ShipmentSenderType.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Shipping/ShipmentManager.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Shipping/ShipmentManagerInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Tracking/TrackLog/TrackLog.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Tracking/TrackLog/TrackLogInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Tracking/TrackLog/TrackLogs.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Tracking/TrackLog/TrackLogsFactory.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Tracking/TrackLog/TrackLogsFactoryInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Tracking/TrackLog/TrackLogsInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Tracking/Tracker.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Tracking/TrackerInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/Functional/ClientTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/Functional/DocumentFetcherTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/Functional/ShipmentManagerTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/Functional/TestCase.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/Functional/TrackerTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/Unit/Shipping/ShipmentManagerTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/Unit/Shipping/ShipmentTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/Unit/TestCase.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/Unit/Tracking/TrackLogsFactoryTest.php" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
+    <execution />
+  </component>
+  <component name="EditorConfigPreviewManager">
+    <editorConfig file="$PROJECT_DIR$/.editorconfig" previewFile="$PROJECT_DIR$/codecov.yml" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration">
+    <include_path>
+      <path value="$PROJECT_DIR$/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/object-enumerator" />
+      <path value="$PROJECT_DIR$/vendor/psr/http-message" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/exporter" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/code-unit" />
+      <path value="$PROJECT_DIR$/vendor/pds/skeleton" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/complexity" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/environment" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/object-reflector" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/version" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/comparator" />
+      <path value="$PROJECT_DIR$/vendor/clue/stream-filter" />
+      <path value="$PROJECT_DIR$/vendor/captainhook/secrets" />
+      <path value="$PROJECT_DIR$/vendor/opis/string" />
+      <path value="$PROJECT_DIR$/vendor/captainhook/captainhook" />
+      <path value="$PROJECT_DIR$/vendor/psr/http-client" />
+      <path value="$PROJECT_DIR$/vendor/guzzlehttp/psr7" />
+      <path value="$PROJECT_DIR$/vendor/psy/psysh" />
+      <path value="$PROJECT_DIR$/vendor/localheinz/diff" />
+      <path value="$PROJECT_DIR$/vendor/psr/event-dispatcher" />
+      <path value="$PROJECT_DIR$/vendor/guzzlehttp/guzzle" />
+      <path value="$PROJECT_DIR$/vendor/psr/cache" />
+      <path value="$PROJECT_DIR$/vendor/guzzlehttp/promises" />
+      <path value="$PROJECT_DIR$/vendor/psr/http-factory" />
+      <path value="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer" />
+      <path value="$PROJECT_DIR$/vendor/psr/container" />
+      <path value="$PROJECT_DIR$/vendor/webmozart/assert" />
+      <path value="$PROJECT_DIR$/vendor/madewithlove/license-checker" />
+      <path value="$PROJECT_DIR$/vendor/amphp/byte-stream" />
+      <path value="$PROJECT_DIR$/vendor/justinrainbow/json-schema" />
+      <path value="$PROJECT_DIR$/vendor/seld/phar-utils" />
+      <path value="$PROJECT_DIR$/vendor/felixfbecker/language-server-protocol" />
+      <path value="$PROJECT_DIR$/vendor/seld/jsonlint" />
+      <path value="$PROJECT_DIR$/vendor/m4tthumphrey/php-gitlab-api" />
+      <path value="$PROJECT_DIR$/vendor/phly/keep-a-changelog" />
+      <path value="$PROJECT_DIR$/vendor/dealerdirect/phpcodesniffer-composer-installer" />
+      <path value="$PROJECT_DIR$/vendor/seld/signal-handler" />
+      <path value="$PROJECT_DIR$/vendor/felixfbecker/advanced-json-rpc" />
+      <path value="$PROJECT_DIR$/vendor/opis/json-schema" />
+      <path value="$PROJECT_DIR$/vendor/captainhook/plugin-composer" />
+      <path value="$PROJECT_DIR$/vendor/opis/uri" />
+      <path value="$PROJECT_DIR$/vendor/netresearch/jsonmapper" />
+      <path value="$PROJECT_DIR$/vendor/vimeo/psalm" />
+      <path value="$PROJECT_DIR$/vendor/php-parallel-lint/php-parallel-lint" />
+      <path value="$PROJECT_DIR$/vendor/jawira/case-converter" />
+      <path value="$PROJECT_DIR$/vendor/php-parallel-lint/php-console-color" />
+      <path value="$PROJECT_DIR$/vendor/psalm/plugin-phpunit" />
+      <path value="$PROJECT_DIR$/vendor/phpcsstandards/phpcsextra" />
+      <path value="$PROJECT_DIR$/vendor/react/promise" />
+      <path value="$PROJECT_DIR$/vendor/php-parallel-lint/php-console-highlighter" />
+      <path value="$PROJECT_DIR$/vendor/nikic/php-parser" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/reflection-docblock" />
+      <path value="$PROJECT_DIR$/vendor/psalm/plugin-mockery" />
+      <path value="$PROJECT_DIR$/vendor/phpcsstandards/phpcsutils" />
+      <path value="$PROJECT_DIR$/vendor/amphp/amp" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/type-resolver" />
+      <path value="$PROJECT_DIR$/vendor/fidry/cpu-core-counter" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/reflection-common" />
+      <path value="$PROJECT_DIR$/vendor/spatie/array-to-xml" />
+      <path value="$PROJECT_DIR$/vendor/ramsey/composer-repl-lib" />
+      <path value="$PROJECT_DIR$/vendor/ramsey/devtools" />
+      <path value="$PROJECT_DIR$/vendor/ramsey/conventional-commits" />
+      <path value="$PROJECT_DIR$/vendor/sebastianfeldmann/camino" />
+      <path value="$PROJECT_DIR$/vendor/ramsey/coding-standard" />
+      <path value="$PROJECT_DIR$/vendor/ramsey/devtools-lib" />
+      <path value="$PROJECT_DIR$/vendor/sebastianfeldmann/cli" />
+      <path value="$PROJECT_DIR$/vendor/ramsey/composer-repl" />
+      <path value="$PROJECT_DIR$/vendor/sebastianfeldmann/git" />
+      <path value="$PROJECT_DIR$/vendor/phar-io/version" />
+      <path value="$PROJECT_DIR$/vendor/phpstan/phpstan" />
+      <path value="$PROJECT_DIR$/vendor/myclabs/deep-copy" />
+      <path value="$PROJECT_DIR$/vendor/phar-io/manifest" />
+      <path value="$PROJECT_DIR$/vendor/laminas/laminas-diactoros" />
+      <path value="$PROJECT_DIR$/vendor/mockery/mockery" />
+      <path value="$PROJECT_DIR$/vendor/dnoegel/php-xdg-base-dir" />
+      <path value="$PROJECT_DIR$/vendor/knplabs/github-api" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-file-iterator" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-invoker" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-timer" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-text-template" />
+      <path value="$PROJECT_DIR$/vendor/phpstan/extension-installer" />
+      <path value="$PROJECT_DIR$/vendor/phpstan/phpstan-mockery" />
+      <path value="$PROJECT_DIR$/vendor/phpstan/phpstan-phpunit" />
+      <path value="$PROJECT_DIR$/vendor/phpstan/phpdoc-parser" />
+      <path value="$PROJECT_DIR$/vendor/symfony/options-resolver" />
+      <path value="$PROJECT_DIR$/vendor/symfony/yaml" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-intl-normalizer" />
+      <path value="$PROJECT_DIR$/vendor/symfony/string" />
+      <path value="$PROJECT_DIR$/vendor/symfony/deprecation-contracts" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-code-coverage" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/phpunit" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php80" />
+      <path value="$PROJECT_DIR$/vendor/symfony/process" />
+      <path value="$PROJECT_DIR$/vendor/symfony/filesystem" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php81" />
+      <path value="$PROJECT_DIR$/vendor/symfony/finder" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/vendor/theseer/tokenizer" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-ctype" />
+      <path value="$PROJECT_DIR$/vendor/symfony/console" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-intl-grapheme" />
+      <path value="$PROJECT_DIR$/vendor/symfony/var-dumper" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php73" />
+      <path value="$PROJECT_DIR$/vendor/symfony/service-contracts" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/deprecations" />
+      <path value="$PROJECT_DIR$/vendor/hamcrest/hamcrest-php" />
+      <path value="$PROJECT_DIR$/vendor/php-http/discovery" />
+      <path value="$PROJECT_DIR$/vendor/ergebnis/json-printer" />
+      <path value="$PROJECT_DIR$/vendor/ergebnis/json" />
+      <path value="$PROJECT_DIR$/vendor/ergebnis/json-schema-validator" />
+      <path value="$PROJECT_DIR$/vendor/composer" />
+      <path value="$PROJECT_DIR$/vendor/ergebnis/composer-normalize" />
+      <path value="$PROJECT_DIR$/vendor/ergebnis/json-pointer" />
+      <path value="$PROJECT_DIR$/vendor/ergebnis/json-normalizer" />
+      <path value="$PROJECT_DIR$/vendor/php-http/multipart-stream-builder" />
+      <path value="$PROJECT_DIR$/vendor/slevomat/coding-standard" />
+      <path value="$PROJECT_DIR$/vendor/php-http/client-common" />
+      <path value="$PROJECT_DIR$/vendor/php-http/guzzle7-adapter" />
+      <path value="$PROJECT_DIR$/vendor/php-http/message" />
+      <path value="$PROJECT_DIR$/vendor/php-http/cache-plugin" />
+      <path value="$PROJECT_DIR$/vendor/php-http/httplug" />
+      <path value="$PROJECT_DIR$/vendor/php-http/promise" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/global-state" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/cli-parser" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/diff" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/code-unit-reverse-lookup" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/recursion-context" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/lines-of-code" />
+      <path value="$PROJECT_DIR$/vendor/ralouphie/getallheaders" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/type" />
+      <path value="$PROJECT_DIR$/vendor/dms/phpunit-arraysubset-asserts" />
+      <path value="$PROJECT_DIR$/vendor/php-http/mock-client" />
+      <path value="$PROJECT_DIR$/vendor/kriswallsmith/buzz" />
+      <path value="$PROJECT_DIR$/vendor/nyholm/psr7" />
+    </include_path>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
+  <component name="ProjectId" id="2fdXcxV5zBfL2JsfmckNFBZLxS8" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="autoscrollToSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;com.jetbrains.php.lang.actions.generation.PhpGenerateFieldAccessorHandlerBase$MyMemberChooser.fluent.setters.last.selected&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;//wsl.localhost/Ubuntu/home/elcuro/web/qdl-client&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="\\wsl.localhost\Ubuntu\home\elcuro\web\qdl-client" />
+      <recent name="\\wsl.localhost\Ubuntu\home\elcuro\web\qdl-client\.docker" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="\\wsl.localhost\Ubuntu\home\elcuro\web\qdl-client\tests\unit" />
+      <recent name="\\wsl.localhost\Ubuntu\home\elcuro\web\qdl-client\src\Documents" />
+      <recent name="\\wsl.localhost\Ubuntu\home\elcuro\web\qdl-client" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner configuration_file="$PROJECT_DIR$/phpunit.xml" scope="XML" use_alternative_configuration_file="true" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-1d06a55b98c1-74d2a5396914-JavaScript-PS-241.14494.237" />
+        <option value="bundled-php-predefined-ba97393d7c68-8f0632a2a215-com.jetbrains.php.sharedIndexes-PS-241.14494.237" />
+        <option value="php-guzzlehttp_guzzle-37cbfb0ca1b6-c7d7fcac" />
+        <option value="php-guzzlehttp_psr7-37cbfb0ca1b6-234759fb" />
+        <option value="php-mockery_mockery-37cbfb0ca1b6-0d788a5e" />
+        <option value="php-php_http_client_common-37cbfb0ca1b6-4498494a" />
+        <option value="php-phpstan_phpstan-37cbfb0ca1b6-d1751fa2" />
+        <option value="php-psy_psysh-37cbfb0ca1b6-2bff4070" />
+        <option value="php-react_promise-37cbfb0ca1b6-f1d792f0" />
+        <option value="php-symfony_process-37cbfb0ca1b6-0c45b194" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="91af898f-88d9-4e78-8352-84f5d8676025" name="Changes" comment="" />
+      <created>1714132011465</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1714132011465</updated>
+      <workItem from="1714132012475" duration="15814000" />
+      <workItem from="1714168541723" duration="107000" />
+      <workItem from="1714383008466" duration="7752000" />
+      <workItem from="1714466230949" duration="4874000" />
+      <workItem from="1714719174591" duration="99000" />
+      <workItem from="1714719280416" duration="3251000" />
+      <workItem from="1714982418094" duration="9000" />
+      <workItem from="1715793936968" duration="16396000" />
+      <workItem from="1715881785613" duration="14864000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
