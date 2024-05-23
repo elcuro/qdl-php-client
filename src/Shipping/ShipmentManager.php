@@ -11,6 +11,7 @@ use Elcuro\QdlPhpClient\Shipping\Shipment\ShipmentInterface;
 use Elcuro\QdlPhpClient\Shipping\Shipment\ShipmentPackageInterface;
 
 use function array_map;
+use function array_merge;
 use function is_array;
 use function reset;
 use function strtoupper;
@@ -65,13 +66,6 @@ class ShipmentManager implements ShipmentManagerInterface
             'sender' => [
                 'id' => $shipment->getSenderId(),
                 'type' => $shipment->getSenderType()->value,
-                'label' => [
-                    'name' => $shipment->getSenderName(),
-                    'street' => $shipment->getSenderStreet(),
-                    'zip' => $shipment->getSenderZip(),
-                    'city' => $shipment->getSenderCity(),
-                    'country' => strtoupper($shipment->getSenderCountry() ?? ''),
-                ],
             ],
             'recipient' => [
                 'name' => $shipment->getRecipientName(),
@@ -102,6 +96,21 @@ class ShipmentManager implements ShipmentManagerInterface
                 'documentsBack' => $shipment->itContainsReturnableDocuments(),
             ],
         ];
+
+        $sender = [
+            'name' => $shipment->getSenderName(),
+            'street' => $shipment->getSenderStreet(),
+            'zip' => $shipment->getSenderZip(),
+            'city' => $shipment->getSenderCity(),
+            'country' => strtoupper($shipment->getSenderCountry() ?? ''),
+        ];
+
+        // If sender ID is null it is B2A, or B2C shipment type
+        if ($shipment->getSenderId() === null) {
+            $shipmentData['sender'] = array_merge($shipmentData['sender'], $sender);
+        } else {
+            $shipmentData['sender']['label'] = $sender;
+        }
 
         return $this->cleanData($shipmentData);
     }

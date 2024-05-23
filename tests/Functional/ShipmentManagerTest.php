@@ -6,6 +6,7 @@ namespace Elcuro\Test\QdlPhpClient\Functional;
 
 use Elcuro\QdlPhpClient\Client\ClientException;
 use Elcuro\QdlPhpClient\Shipping\AddedShipment\AddedShipmentInterface;
+use Elcuro\QdlPhpClient\Shipping\Shipment\ShipmentSenderType;
 
 class ShipmentManagerTest extends TestCase
 {
@@ -50,6 +51,25 @@ class ShipmentManagerTest extends TestCase
 
         $this->expectException(ClientException::class);
         $this->createManager()->addShipment($shipment);
+    }
+
+    public function testAddB2AShipment(): void
+    {
+        $shipment = $this->createShipment();
+        $shipment
+            ->setSenderId(null)
+            ->setSenderType(ShipmentSenderType::ID)
+            ->setSenderName('B2A klient')
+            ->setSenderStreet('Na vŕšku 23')
+            ->setSenderCity('Liptovský Mikuláš')
+            ->setSenderZip('03101')
+            ->setSenderCountry('sk');
+
+        $addedShipment = $this->createManager()->addShipment($shipment);
+
+        $this->assertEquals('Janko Hraško', $addedShipment->getRecipient());
+        $this->assertNotEmpty($addedShipment->getId());
+        $this->assertIsArray($addedShipment->getPackageIds());
     }
 
     public function testOrderShipment(): void
